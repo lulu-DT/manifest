@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://github.com/lulu-DT" name="github"/>
+	<remote fetch="github.com/lulu-DT/" name="github"/>
 
-	<project name="lulu" path="lulu" remote="github" revision="main" upstream="main"/>
-	<project name="llvm-project" path="lulu/llvm-project" remote="github" revision="main" upstream="main"/>
-	<project name="mlir-learn" path="lulu/mlir-learn" remote="github" revision="main" upstream="main"/>
+	<project name="lulu.git" path="lulu" remote="github" revision="main" upstream="main"/>
+	<project name="llvm-project.git" path="lulu/llvm-project" remote="github" revision="main" upstream="main"/>
+	<project name="mlir-learn.git" path="lulu/mlir-learn" remote="github" revision="main" upstream="main"/>
 </manifest>
