@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="github" fetch="http://github.com/lulu-DT" />
+	<remote name="github" fetch="ssh://github.com/lulu-DT/" />
 	<default revision="main" remote="github" sync-j="4" />
-	<project path="lulu" name="lulu" remote="github" revision="main" />
-  	<project path="lulu/llvm-project" name="llvm-project" remote="github" revision="main" />
-  	<project path="lulu/mlir-learn" name="mlir-learn" remote="github" revision="main" />
+	<project path="lulu" name="lulu.git" remote="github" revision="main" />
+  	<project path="lulu/llvm-project" name="llvm-project.git" remote="github" revision="main" />
+  	<project path="lulu/mlir-learn" name="mlir-learn.git" remote="github" revision="main" />
 </manifest>
