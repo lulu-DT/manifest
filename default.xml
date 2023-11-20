@@ -3,6 +3,5 @@
 	<remote name="github" fetch="ssh://github.com/lulu-DT/" />
 	<default revision="main" remote="github" sync-j="4" />
 	<project path="lulu" name="lulu.git" remote="github" revision="main" />
-  	<project path="lulu/llvm-project" name="llvm-project.git" remote="github" revision="main" />
   	<project path="lulu/mlir-learn" name="mlir-learn.git" remote="github" revision="main" />
 </manifest>
